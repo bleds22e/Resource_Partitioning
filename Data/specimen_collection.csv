@@ -1,0 +1,46 @@
+"","year","month","day","season","sp_code","sci_name","voucher","DNA","label_number","collector","location","easting","northing","notes","long","lat"
+"1",2016,3,23,"winter","alli inca","Allionia incarnate","Y","Y","SKME_041","EKB","Plot 7, stake 53",681222.2,3535171.07,NA,-109.08284532639,31.9380299721141
+"2",2016,3,20,"winter","amsi tess","Amsinckia tessellata","Y","Y","SKME_003","EKB","Plot 22, stake 67",681645.78,3534990.26,NA,-109.078400347617,31.9363319325536
+"3",2016,3,23,"winter","astra allo","Astragalus allochrous","Y","Y","SKME_021","EKB","Plot 2, stake 12",681288.65,3535283.03,NA,-109.082121715555,31.9390288847151
+"4",2016,3,23,"winter","bail mult","Baileya multiradiata","Y","Y","SKME_032","SDT","Plot 4, stake 51",681432.77,3535262.24,NA,-109.080601678715,31.9388183956345
+"5",2016,3,20,"winter","cass bauh","Cassia bauhinoides","Y","Y","SKME_001","EKB","ramada",681200.79,3535287.25,NA,-109.083049963643,31.9390809662032
+"6",2016,3,23,"winter","chae stev","Chaenactis stevioides","Y","Y","SKME_022","EKB","Plot 1",681225.98,3535262.99,NA,-109.082788145223,31.9388581959138
+"7",2016,3,20,"winter","chen frem","Chenopodium fremontii","Y","Y","SKME_011","EKB","ramada",681200.79,3535287.25,NA,-109.083049963643,31.9390809662032
+"8",2016,3,23,"winter","dale pogo","Dalea pogonathera","Y","Y","SKME_030","EKB","Plot 3, stake 36",681387.98,3535274.16,NA,-109.081073055918,31.9389330352075
+"9",2016,3,20,"winter","desc pinn","Descurainia pinnata","Y","Y","SKME_012","EKB","ramada",681200.79,3535287.25,NA,-109.083049963643,31.9390809662032
+"10",2016,3,23,"winter","dich pulc","Dichlostemma pulchellum","Y","Y","SKME_025","EKB","Plot 2, SE corner",681326.62,3535240.94,NA,-109.081728103835,31.9386433008859
+"11",2016,3,23,"winter","ephe trif","Ephedra trifurca","Y","Y","SKME_042","EKB","ramada",681200.79,3535287.25,NA,-109.083049963643,31.9390809662032
+"12",2016,3,23,"winter","eria diff","Eriastrum diffusum","Y","Y","SKME_034","SDT","ramada",681200.79,3535287.25,NA,-109.083049963643,31.9390809662032
+"13",2016,3,23,"winter","erig dive","Erigeron divergens","Y","Y","SKME_017","EKB","Plot 1, stake 43",681219.91,3535262.79,NA,-109.082852367189,31.9388573617483
+"14",2016,3,23,"winter","erio aber","Eriogonum abertianum","Y","Y","SKME_018","EKB","Plot 1, stake 13",681219.36,3535279.6,NA,-109.082855035364,31.9390090225311
+"15",2016,3,23,"winter","erod cicu","Erodium cicutarium","Y","Y","SKME_023","EKB","Plot 1",681225.98,3535262.99,NA,-109.082788145223,31.9388581959138
+"16",2016,3,23,"winter","esch mexi","Eschscholzia californica","Y","Y","SKME_029","SDT","W of Plot 3",681357.08,3535260.79,NA,-109.081402299538,31.9388174181596
+"17",2016,3,20,"winter","euro lana","Eurotia lanata","Y","Y","SKME_007","EKB","Plot 13, stake 75",681254.99,3535039.18,NA,-109.08252330476,31.9368355060615
+"18",2016,3,23,"winter","flou cern","Flourensia cernua","Y","Y","SKME_036","EKB","Plot 17, stake 33",681542.73,3535078.28,NA,-109.079473463116,31.9371420790656
+"19",2016,3,20,"winter","guti saro","Gutierrezia sarothrae","Y","Y","SKME_013","EKB","ramada",681200.79,3535287.25,NA,-109.083049963643,31.9390809662032
+"20",2016,3,23,"winter","hoff dens","Hoffmanseggia densiflora","Y","Y","SKME_019","SDT","Plot 1, stake 13",681219.89,3535281.58,NA,-109.082849060361,31.939026791236
+"21",2016,3,23,"winter","lepi lasi","Lepidium lasiocarpum","Y","Y","SKME_020","SDT","Plot 1, stake 17",681244.22,3535281.57,NA,-109.082591795014,31.9390228160594
+"22",2016,3,23,"winter","lesq gord","Lesquerella gordoni","Y","Y","SKME_028","SKME","Plot 3, stake 32",681363.26,3535273.13,NA,-109.081334639553,31.9389276982725
+"23",2016,3,20,"winter","lupi conc","Lupinus concinnus","Y","Y","SKME_010","EKB","ramada",681200.79,3535287.25,NA,-109.083049963643,31.9390809662032
+"24",2016,3,23,"winter","lyci torr","Lycium torreyi","Y","Y","SKME_038","EKB","Plot 15, stake 76",681410.99,3535047.34,NA,-109.080872260173,31.9368841615739
+"25",2016,3,23,"winter","mala fend","Malacothrix fendleri","Y","Y","SKME_014","SDT","ramada",681200.79,3535287.25,NA,-109.083049963643,31.9390809662032
+"26",2016,3,20,"winter","micr lene","Uropappus lindleyi","Y","Y","SKME_004","EKB","Plot 22, stake 35",681631.8,3535006.72,NA,-109.07854507985,31.9364825864084
+"27",2016,3,23,"winter","oeno prim","Oenothera primiveris","N","Y","SKME_040","EKB","Plot 9, stake 25",681414.21,3535166.8,NA,-109.080815822064,31.9379607967998
+"28",2016,3,23,"winter","pere nana","Perezia nana","Y","Y","SKME_024","EKB","between Plots 2 and 3",681350,3535275,NA,-109.081474501123,31.9389466785371
+"29",2016,3,20,"winter","phac ariz","Phacelia arizonica","Y","Y","SKME_009","EKB","ramada",681200.79,3535287.25,NA,-109.083049963643,31.9390809662032
+"30",2016,3,23,"winter","plan purs","Plantago patagonica","Y","Y","SKME_015","EKB","far entrance",681231.07,3535279.78,NA,-109.082731179268,31.9390087757828
+"31",2016,3,20,"winter","pros glan","Prosopis glandulosa","Y","Y","SKME_008","EKB","Plot 13, stake 72",681236.34,3535038.21,NA,-109.082720688181,31.93682973773
+"32",2016,3,23,"winter","rume hyme","Rumex hymenosepalus","Y","Y","SKME_045","EKB","Plot 1, N side",681225.78,3535281.68,NA,-109.082786760336,31.9390267524533
+"33",2016,3,23,"winter","sola elea","Solanum eleagnifolium","Y","Y","SKME_035","EKB","N of Plot 14",681323.33,3535080.38,NA,-109.081792971852,31.9371960844453
+"34",2016,3,23,"winter","sper echi","Spermolepis echinata","Y","Y","SKME_026","EKB","Plot 2, SW corner",681276.31,3535288.84,NA,-109.082251111363,31.9390832434927
+"35",2016,3,23,"winter","yucc elat","Yucca elata","Y","Y","SKME_044","EKB","Plot 1, W side",681207.42,3535262.9,NA,-109.082984416555,31.938860347785
+"36",2016,3,23,"winter","","Lappula redowskii","Y","Y","SKME_027","SKME","Plot 2, N side",681301,3535283.44,NA,-109.081991048983,31.939030608887
+"37",2016,3,23,"winter","crot cory","Croton potsii","Y","Y","SKME_016","EKB","far entrance",681231.07,3535279.78,NA,-109.082731179268,31.9390087757828
+"38",2016,3,23,"winter","","Psuedognaphalium canescens","Y","Y","SKME_039","EKB","Plot 23, stake 74",681706.89,3535024.91,NA,-109.077747681967,31.9366345840898
+"39",2016,3,20,"winter","","Sphaeralcea coccinea","Y","Y","SKME_002","EKB","Plot 23, stake 65",681706.89,3535024.91,NA,-109.077747681967,31.9366345840898
+"40",2016,3,20,"winter","","Erigeron concinnus","Y","Y","SKME_005","EKB","Plot 22, stake 53",681620.44,3534994.09,NA,-109.078667567551,31.936370521766
+"41",2016,3,20,"winter","","Atriplex canescens","Y","Y","SKME_006","EKB","Plot 20, stake 31",681459.32,3534993.28,NA,-109.080371362275,31.936388986783
+"42",2016,3,23,"winter","delp woot","Delphinium wootonii","N","Y","SKME_031","EKB","Plot 3, stake 31",681356.75,3535272.74,NA,-109.081403549728,31.9389252219554
+"43",2016,3,23,"winter","","Chaetopappa ericoides","Y","Y","SKME_033","SDT","Plot 6, stake 15",681608.23,3535310.21,NA,-109.078737358093,31.9392228703346
+"44",2016,3,23,"winter","dith wisl","Dithyrea wislinezi","Y","Y","SKME_037","EKB","Plot 16, stake 17",681491.6,3535090.76,NA,-109.080011763475,31.9372627856551
+"45",2016,3,23,"winter","ephe torr","Ephedra torreyana","Y","Y","SKME_043","EKB","ramada",681200.79,3535287.25,NA,-109.083049963643,31.9390809662032
