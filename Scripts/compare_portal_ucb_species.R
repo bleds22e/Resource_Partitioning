@@ -34,21 +34,41 @@ ucb_species <- select(ucb_species, Family = o, Genus = g, Genus_sp = s) %>%
 
 # PORTAL
 
+# include all possible genus variations with to ensure accurate number of matches
+df <- data.frame(Genus = c("Aristida", "Hamulosa", "Dimorphocarpa", "Dithyrea",
+                           "Machaeranthera", "Haplopappus", "Haplopappus", "Isocoma",
+                           "Nuttallanthus", "Linaria", "Uropappus", "Microseris",
+                           "Urochloa", "Panicum", "Phemeranthus", "Talinum",
+                           "Talinum", "Phemeranthus"),
+                 Species = c("ternipes", "ternipes", "wislizeni", "wislizeni",
+                             "gracilis", "gracilis", "tenuisectus", "tenuisectus",
+                             "texanus", "texanus", "lindleyi", "lindleyi",
+                             "arizonicum", "arizonicum", "angustissimum", "angustissimum",
+                             "aurantiacus", "aurantiacus"))
+genus_species <- portal_species %>% select(Genus, Species)
+portal_genus_sp <- bind_rows(genus_species, df)
+
 # make a column of genus and species to make UCB
-portal_g_s <- tidyr::unite(portal_species, Genus_sp, Genus, Species, sep = " ") %>% 
+portal_g_s <- tidyr::unite(portal_genus_sp, Genus_sp, Genus, Species, sep = " ") %>% 
               select(Genus_sp)
-# add genus_species column to original species list
-portal_species <- bind_cols(portal_species, portal_g_s)
-portal_species <- arrange(portal_species, Family, Genus, Genus_sp)
 
 ##############################
 # WRANGLE
 
-genus_sp <- semi_join(ucb_species, portal_species, by = "Genus_sp")
-genus_sp1 <- semi_join(ucb_species, portal_species, by = "Genus_sp") %>% distinct()
+genus_sp <- semi_join(ucb_species, portal_g_s, by = "Genus_sp")
+genus_sp1 <- semi_join(ucb_species, portal_g_s, by = "Genus_sp") %>% distinct() %>% arrange()
 
-fam_genus_sp <- semi_join(ucb_species, portal_species, by = c("Family", "Genus", "Genus_sp"))
-fam_genus_sp1 <- semi_join(ucb_species, portal_species, by = c("Family", "Genus", "Genus_sp")) %>% distinct()
+not_found <- anti_join(portal_g_s, ucb_species, by = c("Genus", "Genus_sp"))
 
-not_found <- anti_join(portal_species, ucb_species, by = c("Genus", "Genus_sp"))
+# percent plants in each family
 
+portal_families <- select(portal_species, Family, Genus, Species) %>% 
+                   filter(Genus != "Unknown", Species != "sp.", Species != "spp.") %>% 
+                   group_by(Family) %>% 
+                   arrange()
+portal_families <- select(portal_families, Family) %>% 
+                   count(Family) %>%
+                   mutate(relative = n/sum(n))
+
+write.csv(genus_sp1, file = "Data/UCB_portal_matches.csv")
+write.csv(portal_families, file = "Data/Portal_families.csv")
