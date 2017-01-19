@@ -1,46 +1,46 @@
-,year,month,day,season,sp_code,sci_name,voucher,DNA,label_number,collector,location,easting,northing,lat,long,notes
-5,2016,3,20,winter,cass bauh,Cassia bauhinoides,Y,Y,SKME_001,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
-39,2016,3,20,winter,,Sphaeralcea coccinea,Y,Y,SKME_002,EKB,"Plot 23, stake 65",681706.89,3535024.91,31.93663458,-109.0777477,NA
+sampleID,year,month,day,season,sp_code,sci_name,voucher,DNA,label_number,collector,location,easting,northing,lat,long,notes
+1,2016,3,23,winter,alli inca,Allionia incarnate,Y,Y,SKME_041,EKB,"Plot 7, stake 53",681222.2,3535171.07,31.93802997,-109.0828453,NA
 2,2016,3,20,winter,amsi tess,Amsinckia tessellata,Y,Y,SKME_003,EKB,"Plot 22, stake 67",681645.78,3534990.26,31.93633193,-109.0784003,NA
-26,2016,3,20,winter,micr lene,Uropappus lindleyi,Y,Y,SKME_004,EKB,"Plot 22, stake 35",681631.8,3535006.72,31.93648259,-109.0785451,NA
-40,2016,3,20,winter,,Erigeron concinnus,Y,Y,SKME_005,EKB,"Plot 22, stake 53",681620.44,3534994.09,31.93637052,-109.0786676,NA
+3,2016,3,23,winter,astr allo,Astragalus allochrous,Y,Y,SKME_021,EKB,"Plot 2, stake 12",681288.65,3535283.03,31.93902888,-109.0821217,NA
 41,2016,3,20,winter,,Atriplex canescens,Y,Y,SKME_006,EKB,"Plot 20, stake 31",681459.32,3534993.28,31.93638899,-109.0803714,NA
-17,2016,3,20,winter,euro lana,Eurotia lanata,Y,Y,SKME_007,EKB,"Plot 13, stake 75",681254.99,3535039.18,31.93683551,-109.0825233,NA
-31,2016,3,20,winter,pros glan,Prosopis glandulosa,Y,Y,SKME_008,EKB,"Plot 13, stake 72",681236.34,3535038.21,31.93682974,-109.0827207,NA
-29,2016,3,20,winter,phac ariz,Phacelia arizonica,Y,Y,SKME_009,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
-23,2016,3,20,winter,lupi conc,Lupinus concinnus,Y,Y,SKME_010,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
-7,2016,3,20,winter,chen frem,Chenopodium fremontii,Y,Y,SKME_011,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
-9,2016,3,20,winter,desc pinn,Descurainia pinnata,Y,Y,SKME_012,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
-19,2016,3,20,winter,guti saro,Gutierrezia sarothrae,Y,Y,SKME_013,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
-25,2016,3,23,winter,mala fend,Malacothrix fendleri,Y,Y,SKME_014,SDT,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
-30,2016,3,23,winter,plan purs,Plantago patagonica,Y,Y,SKME_015,EKB,far entrance,681231.07,3535279.78,31.93900878,-109.0827312,NA
-37,2016,3,23,winter,crot cory,Croton potsii,Y,Y,SKME_016,EKB,far entrance,681231.07,3535279.78,31.93900878,-109.0827312,NA
-13,2016,3,23,winter,erig dive,Erigeron divergens,Y,Y,SKME_017,EKB,"Plot 1, stake 43",681219.91,3535262.79,31.93885736,-109.0828524,NA
-14,2016,3,23,winter,erio aber,Eriogonum abertianum,Y,Y,SKME_018,EKB,"Plot 1, stake 13",681219.36,3535279.6,31.93900902,-109.082855,NA
-20,2016,3,23,winter,hoff dens,Hoffmanseggia densiflora,Y,Y,SKME_019,SDT,"Plot 1, stake 13",681219.89,3535281.58,31.93902679,-109.0828491,NA
-21,2016,3,23,winter,lepi lasi,Lepidium lasiocarpum,Y,Y,SKME_020,SDT,"Plot 1, stake 17",681244.22,3535281.57,31.93902282,-109.0825918,NA
-3,2016,3,23,winter,astra allo,Astragalus allochrous,Y,Y,SKME_021,EKB,"Plot 2, stake 12",681288.65,3535283.03,31.93902888,-109.0821217,NA
+4,2016,3,23,winter,bail mult,Baileya multiradiata,Y,Y,SKME_032,SDT,"Plot 4, stake 51",681432.77,3535262.24,31.9388184,-109.0806017,NA
+5,2016,3,20,winter,cass bauh,Cassia bauhinoides,Y,Y,SKME_001,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
 6,2016,3,23,winter,chae stev,Chaenactis stevioides,Y,Y,SKME_022,EKB,Plot 1,681225.98,3535262.99,31.9388582,-109.0827881,NA
-15,2016,3,23,winter,erod cicu,Erodium cicutarium,Y,Y,SKME_023,EKB,Plot 1,681225.98,3535262.99,31.9388582,-109.0827881,NA
-28,2016,3,23,winter,pere nana,Perezia nana,Y,Y,SKME_024,EKB,between Plots 2 and 3,681350,3535275,31.93894668,-109.0814745,NA
-10,2016,3,23,winter,dich pulc,Dichlostemma pulchellum,Y,Y,SKME_025,EKB,"Plot 2, SE corner",681326.62,3535240.94,31.9386433,-109.0817281,NA
-34,2016,3,23,winter,sper echi,Spermolepis echinata,Y,Y,SKME_026,EKB,"Plot 2, SW corner",681276.31,3535288.84,31.93908324,-109.0822511,NA
-36,2016,3,23,winter,,Lappula redowskii,Y,Y,SKME_027,SKME,"Plot 2, N side",681301,3535283.44,31.93903061,-109.081991,NA
-22,2016,3,23,winter,lesq gord,Lesquerella gordoni,Y,Y,SKME_028,SKME,"Plot 3, stake 32",681363.26,3535273.13,31.9389277,-109.0813346,NA
-16,2016,3,23,winter,esch mexi,Eschscholzia californica,Y,Y,SKME_029,SDT,W of Plot 3,681357.08,3535260.79,31.93881742,-109.0814023,NA
+43,2016,3,23,winter,,Chaetopappa ericoides,Y,Y,SKME_033,SDT,"Plot 6, stake 15",681608.23,3535310.21,31.93922287,-109.0787374,NA
+7,2016,3,20,winter,chen frem,Chenopodium fremontii,Y,Y,SKME_011,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
+37,2016,3,23,winter,crot cory,Croton potsii,Y,Y,SKME_016,EKB,far entrance,681231.07,3535279.78,31.93900878,-109.0827312,NA
 8,2016,3,23,winter,dale pogo,Dalea pogonathera,Y,Y,SKME_030,EKB,"Plot 3, stake 36",681387.98,3535274.16,31.93893304,-109.0810731,NA
 42,2016,3,23,winter,delp woot,Delphinium wootonii,N,Y,SKME_031,EKB,"Plot 3, stake 31",681356.75,3535272.74,31.93892522,-109.0814035,NA
-4,2016,3,23,winter,bail mult,Baileya multiradiata,Y,Y,SKME_032,SDT,"Plot 4, stake 51",681432.77,3535262.24,31.9388184,-109.0806017,NA
-43,2016,3,23,winter,,Chaetopappa ericoides,Y,Y,SKME_033,SDT,"Plot 6, stake 15",681608.23,3535310.21,31.93922287,-109.0787374,NA
-12,2016,3,23,winter,eria diff,Eriastrum diffusum,Y,Y,SKME_034,SDT,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
-33,2016,3,23,winter,sola elea,Solanum eleagnifolium,Y,Y,SKME_035,EKB,N of Plot 14,681323.33,3535080.38,31.93719608,-109.081793,NA
-18,2016,3,23,winter,flou cern,Flourensia cernua,Y,Y,SKME_036,EKB,"Plot 17, stake 33",681542.73,3535078.28,31.93714208,-109.0794735,NA
+9,2016,3,20,winter,desc pinn,Descurainia pinnata,Y,Y,SKME_012,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
+10,2016,3,23,winter,dich pulc,Dichlostemma pulchellum,Y,Y,SKME_025,EKB,"Plot 2, SE corner",681326.62,3535240.94,31.9386433,-109.0817281,NA
 44,2016,3,23,winter,dith wisl,Dithyrea wislinezi,Y,Y,SKME_037,EKB,"Plot 16, stake 17",681491.6,3535090.76,31.93726279,-109.0800118,NA
-24,2016,3,23,winter,lyci torr,Lycium torreyi,Y,Y,SKME_038,EKB,"Plot 15, stake 76",681410.99,3535047.34,31.93688416,-109.0808723,NA
-38,2016,3,23,winter,,Psuedognaphalium canescens,Y,Y,SKME_039,EKB,"Plot 23, stake 74",681706.89,3535024.91,31.93663458,-109.0777477,NA
-27,2016,3,23,winter,oeno prim,Oenothera primiveris,N,Y,SKME_040,EKB,"Plot 9, stake 25",681414.21,3535166.8,31.9379608,-109.0808158,NA
-1,2016,3,23,winter,alli inca,Allionia incarnate,Y,Y,SKME_041,EKB,"Plot 7, stake 53",681222.2,3535171.07,31.93802997,-109.0828453,NA
-11,2016,3,23,winter,ephe trif,Ephedra trifurca,Y,Y,SKME_042,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
 45,2016,3,23,winter,ephe torr,Ephedra torreyana,Y,Y,SKME_043,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
-35,2016,3,23,winter,yucc elat,Yucca elata,Y,Y,SKME_044,EKB,"Plot 1, W side",681207.42,3535262.9,31.93886035,-109.0829844,NA
+11,2016,3,23,winter,ephe trif,Ephedra trifurca,Y,Y,SKME_042,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
+12,2016,3,23,winter,eria diff,Eriastrum diffusum,Y,Y,SKME_034,SDT,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
+40,2016,3,20,winter,,Erigeron concinnus,Y,Y,SKME_005,EKB,"Plot 22, stake 53",681620.44,3534994.09,31.93637052,-109.0786676,NA
+13,2016,3,23,winter,erig dive,Erigeron divergens,Y,Y,SKME_017,EKB,"Plot 1, stake 43",681219.91,3535262.79,31.93885736,-109.0828524,NA
+14,2016,3,23,winter,erio aber,Eriogonum abertianum,Y,Y,SKME_018,EKB,"Plot 1, stake 13",681219.36,3535279.6,31.93900902,-109.082855,NA
+15,2016,3,23,winter,erod cicu,Erodium cicutarium,Y,Y,SKME_023,EKB,Plot 1,681225.98,3535262.99,31.9388582,-109.0827881,NA
+16,2016,3,23,winter,esch mexi,Eschscholzia californica,Y,Y,SKME_029,SDT,W of Plot 3,681357.08,3535260.79,31.93881742,-109.0814023,NA
+17,2016,3,20,winter,euro lana,Eurotia lanata,Y,Y,SKME_007,EKB,"Plot 13, stake 75",681254.99,3535039.18,31.93683551,-109.0825233,NA
+18,2016,3,23,winter,flou cern,Flourensia cernua,Y,Y,SKME_036,EKB,"Plot 17, stake 33",681542.73,3535078.28,31.93714208,-109.0794735,NA
+19,2016,3,20,winter,guti saro,Gutierrezia sarothrae,Y,Y,SKME_013,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
+20,2016,3,23,winter,hoff dens,Hoffmanseggia densiflora,Y,Y,SKME_019,SDT,"Plot 1, stake 13",681219.89,3535281.58,31.93902679,-109.0828491,NA
+36,2016,3,23,winter,,Lappula redowskii,Y,Y,SKME_027,SKME,"Plot 2, N side",681301,3535283.44,31.93903061,-109.081991,NA
+21,2016,3,23,winter,lepi lasi,Lepidium lasiocarpum,Y,Y,SKME_020,SDT,"Plot 1, stake 17",681244.22,3535281.57,31.93902282,-109.0825918,NA
+22,2016,3,23,winter,lesq gord,Lesquerella gordoni,Y,Y,SKME_028,SKME,"Plot 3, stake 32",681363.26,3535273.13,31.9389277,-109.0813346,NA
+23,2016,3,20,winter,lupi conc,Lupinus concinnus,Y,Y,SKME_010,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
+24,2016,3,23,winter,lyci torr,Lycium torreyi,Y,Y,SKME_038,EKB,"Plot 15, stake 76",681410.99,3535047.34,31.93688416,-109.0808723,NA
+25,2016,3,23,winter,mala fend,Malacothrix fendleri,Y,Y,SKME_014,SDT,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
+27,2016,3,23,winter,oeno prim,Oenothera primiveris,N,Y,SKME_040,EKB,"Plot 9, stake 25",681414.21,3535166.8,31.9379608,-109.0808158,NA
+28,2016,3,23,winter,pere nana,Perezia nana,Y,Y,SKME_024,EKB,between Plots 2 and 3,681350,3535275,31.93894668,-109.0814745,NA
+29,2016,3,20,winter,phac ariz,Phacelia arizonica,Y,Y,SKME_009,EKB,ramada,681200.79,3535287.25,31.93908097,-109.08305,NA
+30,2016,3,23,winter,plan purs,Plantago patagonica,Y,Y,SKME_015,EKB,far entrance,681231.07,3535279.78,31.93900878,-109.0827312,NA
+31,2016,3,20,winter,pros glan,Prosopis glandulosa,Y,Y,SKME_008,EKB,"Plot 13, stake 72",681236.34,3535038.21,31.93682974,-109.0827207,NA
+38,2016,3,23,winter,,Psuedognaphalium canescens,Y,Y,SKME_039,EKB,"Plot 23, stake 74",681706.89,3535024.91,31.93663458,-109.0777477,NA
 32,2016,3,23,winter,rume hyme,Rumex hymenosepalus,Y,Y,SKME_045,EKB,"Plot 1, N side",681225.78,3535281.68,31.93902675,-109.0827868,NA
+33,2016,3,23,winter,sola elea,Solanum eleagnifolium,Y,Y,SKME_035,EKB,N of Plot 14,681323.33,3535080.38,31.93719608,-109.081793,NA
+34,2016,3,23,winter,sper echi,Spermolepis echinata,Y,Y,SKME_026,EKB,"Plot 2, SW corner",681276.31,3535288.84,31.93908324,-109.0822511,NA
+39,2016,3,20,winter,,Sphaeralcea coccinea,Y,Y,SKME_002,EKB,"Plot 23, stake 65",681706.89,3535024.91,31.93663458,-109.0777477,NA
+26,2016,3,20,winter,micr lene,Uropappus lindleyi,Y,Y,SKME_004,EKB,"Plot 22, stake 35",681631.8,3535006.72,31.93648259,-109.0785451,NA
+35,2016,3,23,winter,yucc elat,Yucca elata,Y,Y,SKME_044,EKB,"Plot 1, W side",681207.42,3535262.9,31.93886035,-109.0829844,NA
