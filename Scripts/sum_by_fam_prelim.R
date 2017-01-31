@@ -11,15 +11,19 @@ library(stringr)
 ########################
 # LOAD FILES
 
-data <- read.csv("C:/Users/ellen.bledsoe/Dropbox/Portal/PORTAL_primary_data/DNA/Results_Jonah/Plants/JV22_closed_ref_trnl_otutable.csv", header = TRUE)
+data <- read.csv("~bleds22e/Dropbox/Portal/PORTAL_primary_data/DNA/Results_Jonah/Plants/JV22_closed_ref_trnl_otutable.csv", header = TRUE)
+
+samples <- 
 
 ########################
 # CLEAN DATA
 
+data <- data[-(c(452:453)),]
+
 # taxonomy dataframe
 
-taxa <- select(data, ï...OTU.ID, ConsensusLineage) %>% 
-        rename(OTU.ID = ï...OTU.ID)
+taxa <- select(data, X.OTU.ID, ConsensusLineage) %>% 
+        rename(OTU.ID = X.OTU.ID)
 
 for(this_level in c('d','k','p','c','o','f','g','s')){
   # separate taxa into columns
@@ -30,9 +34,9 @@ for(this_level in c('d','k','p','c','o','f','g','s')){
 
 # sample and read dataframe
 
-reads <- data[,c(1,8:54)] %>% rename(OTU.ID = ï...OTU.ID)
-
-reads <- tidyr::gather(reads, "Sample", "Proportion", 2:48)
+reads <- data[,c(1,8:54)] %>% rename(OTU.ID = X.OTU.ID)
+reads <- tidyr::gather(reads, "Sample", "Proportion", 2:48) %>% 
+         filter(Proportion != 0)
 
 #########################
 # SUMMARIZE DATA
