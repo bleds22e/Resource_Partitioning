@@ -1,4 +1,10 @@
 # read FNA files
+# EKB
+# 2/9/2017
+
+# to run this script, you will need to download bioconductor first:
+# source("https://bioconductor.org/biocLite.R")
+# biocLite("Biostrings")
 
 #===== LIBRARIES =====#
 
