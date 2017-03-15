@@ -10,7 +10,7 @@ library(ggplot2)
 #########################
 # Plotting functions
 
-rank_abundance <- function(samples, reads, sp, cut_off = 0.001) {
+rank_abundance <- function(samples, reads, sp = c('PP', 'DM', 'DO'), cut_off = 0.001) {
   # create rank-abundance plot of mean OTUs w/ error bars for a given species
   
   filtered_samples <- samples[samples$species %in% sp,]
@@ -27,7 +27,7 @@ rank_abundance <- function(samples, reads, sp, cut_off = 0.001) {
       ymin = mean - sd,
       ymax = mean + sd
     )) +
-    labs(x = "OTU.ID", y = "Mean Reads", title = paste(c(species))) +
+    labs(x = "OTU.ID", y = "Mean Reads") +
     theme_bw() +
     theme(axis.text.x = element_text(
       angle = 45,
@@ -36,7 +36,7 @@ rank_abundance <- function(samples, reads, sp, cut_off = 0.001) {
     ))
 }
 
-fresh_vs_trap <- function(samples, reads, sp, cut_off = 0.005) {
+fresh_vs_trap <- function(samples, reads, sp = c('PP', 'DM', 'DO'), cut_off = 0.005) {
   # plot fresh scat vs trap scat for a given species
   
   filtered_samples <- samples[samples$species %in% sp,]
@@ -70,7 +70,7 @@ fresh_vs_trap <- function(samples, reads, sp, cut_off = 0.005) {
     ))
 }
 
-control_vs_krat <- function(samples, reads, sp, sample_type, cut_off = 0.005) {
+control_vs_krat <- function(samples, reads, sp = c('PP', 'DM', 'DO'), sample_type, cut_off = 0.005) {
   # plot reads by species, sample type, and plot type
   filtered <- samples[samples$species %in% sp, ]
   filtered <- filtered[filtered$sample_type %in% sample_type, ]
@@ -112,20 +112,21 @@ control_vs_krat <- function(samples, reads, sp, sample_type, cut_off = 0.005) {
     ))
 }
 
-sum_by_family <- function(taxa, reads, cut_off > 0.001) {
+sum_by_family <- function(taxa, samples, reads, sp = c('PP', 'DM', 'DO'), cut_off = 0.001) {
   # plot of all reads by (plant) family
-  family <- select(taxa, OTU.ID, o) %>% group_by(o)
-  otu_reads <- select(reads, OTU.ID, Reads) %>%
-    group_by(OTU.ID)
-  family_sum <- inner_join(family, otu_reads, by = "OTU.ID") %>%
+  family <- select(taxa, OTU.ID, Family) %>% group_by(Family)
+  otu_reads <- reads %>% group_by(OTU.ID)
+  filtered_samples <- samples[samples$species %in% sp, ]
+  filtered <- inner_join(filtered_samples, otu_reads, by = "Sample")
+  family_sum <- inner_join(family, filtered, by = "OTU.ID") %>%
     summarise(sum = sum(Reads)) %>%
     arrange(desc(sum)) %>%
-    rename(family = o) %>%
     filter(sum > cut_off)
   
-  ggplot(data = family_sum, aes(x = reorder(family, desc(sum)), y = sum)) +
+  ggplot(data = family_sum, aes(x = reorder(Family, desc(sum)), y = sum)) +
     geom_col() +
     labs(x = "Plant Family", y = "Total Reads", title = "Reads by Family (> 0.001)") +
+    geom_text(aes(label = round((sum/sum(sum)), 3)), vjust = -0.2) +
     theme_bw() +
     theme(axis.text.x = element_text(
       angle = 45,
@@ -134,8 +135,9 @@ sum_by_family <- function(taxa, reads, cut_off > 0.001) {
     ))
 }
 
-trap_vs_fresh_indv <- function(samples, reads, cut_off = 0.01) {
+trap_vs_fresh_indv <- function(samples, reads, sp = c('PP', 'DM', 'DO'), cut_off = 0.01) {
   # plot trap vs fresh samples by individual animal
+  filtered_samples <- samples[samples$species %in% sp, ]
   pit_tags <- samples %>% group_by(PIT_tag) %>%
     summarise(num_samples = n_distinct(sample_type)) %>%
     filter(num_samples > 1)
