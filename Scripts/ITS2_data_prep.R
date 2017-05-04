@@ -6,7 +6,6 @@
 # LIBRARIES
 
 library(dplyr)
-library(ggplot2)
 
 ########################
 # LOAD FILES
@@ -50,8 +49,10 @@ all_ITS <- tidyr::separate(all_ITS, Sample, into = c("Sample", "Wisely")) %>%
 
 # vouchers dataframe
 
-vouchers <- select(plants, vial_barcode, sci_name_profID) %>% 
-            rename(Sample = vial_barcode)
+vouchers <- select(plants, vial_barcode, sci_name_profID, year) %>% 
+            filter(year != '2017') %>% 
+            rename(Sample = vial_barcode) %>% 
+            select(-year)
 vouchers_its <- right_join(all_ITS, vouchers, by = "Sample")
 
 # fecal sample dataframe
@@ -61,10 +62,10 @@ fecal <- anti_join(all_ITS, vouchers, by = "Sample")
 ########################
 # UNIQUE OTUs for VOUCHERS
 
-best_match <- select(vouchers_its, OTU.ID, Sample, Reads, sci_name_profID) %>% group_by(Sample) %>% filter(Reads == max(Reads))
-best_match <- filter(best_match, Reads >= 1000)
-
-length(unique(best_match$OTU.ID))
-count_OTU <- best_match %>% ungroup() %>% count(OTU.ID)
+# best_match <- select(vouchers_its, OTU.ID, Sample, Reads, sci_name_profID) %>% group_by(Sample) %>% filter(Reads == max(Reads))
+# best_match <- filter(best_match, Reads >= 1000)
+# 
+# length(unique(best_match$OTU.ID))
+# count_OTU <- best_match %>% ungroup() %>% count(OTU.ID)
 
 
